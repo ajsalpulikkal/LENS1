@@ -1,0 +1,385 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!--icon-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="style.css" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body id="body-section">
+        
+            
+                <nav class="navbar navbar-expand-lg navbar-dark bg-info  ">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#"><img src="lens.jpg" alt=""></a>
+                      <span class="text fs-2 fw-bold">Lenskart</span>
+                      <div class="hello">
+                        <button id="floor"><a href="" class="world">Eye glasses</a></button>
+                        <button id="floor"><a href="" class="world">kids glasses</a></button>
+                      <button id="floor"><a href="" class="world">Computer glasses </a></button>
+                      <button id="floor"><a href="" class="world">Contact lens</a></button>
+                      </div>
+                      <div class="over">
+                        <i class="bi bi-heart"></i>
+                        <a href="" class="decr">Wishlist</a> 
+                      </div>
+                      <div class="key">
+                        <i class="bi bi-cart"></i>
+                        <a href="" class="decr">Cart</a> 
+
+          
+                      </div>
+                    
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
+                          <li class="nav-item">
+                            <a class="nav-link  " aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item ">
+                            <a class="nav-link  text-white" href="#card-section" >
+                              Order
+                            </a>
+                            
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-white" href="./login.html">Log in</a>
+                          </li>
+                          
+                          
+                        </ul>
+                        
+                        <form class="d-flex mt-3">
+                          
+                          <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked onclick="mode()">
+                            <label class="form-check-label" for="flexSwitchCheckChecked">Theme</label>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            
+        </section>
+        <section>
+          <div class="phone">
+            <div class="row  ">
+              <div class="col-md-4">
+                <div class="location">
+              
+                  <button onclick="geolocation()" class="on">Weather</button>
+                  <p id="out"></p>
+                  <p id="weather"></p>
+                  <i class="fa-regular fa-clouds"></i>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <label for="exampleDataList" class="form-label"></label>
+                <input class="form-control w-50" list="datalistOptions" id="exampleDataList" placeholder="Select city">
+                <datalist id="datalistOptions">
+                  <option >Delhi</option>
+                  <option>Mumbai</option>
+                  <option >Chennai</option>
+                  <option >Banglore</option>
+              </datalist>
+              </div>
+              <div class="col-md-4">
+                <label for="exampleDataList" class="form-label"></label>
+                <input class="form-control w-70" list="datalistOptions" id="exampleDataList" placeholder="Select shop">
+                <datalist id="datalist">
+                 
+              </datalist>
+              </div>
+              
+              
+             
+              
+              <div>
+                
+              </div>
+             
+             
+              
+            
+              
+              
+            </div>
+          </div>
+          
+        </section>
+        <section class="carousel-section">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./pic1.jpg" class=" slide w-100  " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      
+                      
+                      <h1 class=" move ">BUY ONE GET ONE FREE AT 999</h1>
+                      <br>
+                      <h4 class="drive">frames+lenses</h4>
+                      <button class="btn btn-success  ">Shop now</button>
+
+                      
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./spec.webp" class=" slide w-100   " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h1 class=" align text-dark fs-1 ms-auto  ">Zero power</h1>
+                      
+                      <h4 class="text-dark fs-3 ms-auto ">computer glasses</h4>
+                      <button class="btn btn-success ms-auto ">Order now </button>
+                     
+                      
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./spec2.jpg" class=" slide w-100   " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h1 class=" align text-dark fs-1 ms-1 ">Blend Edit</h1>
+                      
+                      <h4 class="  text-dark fs-3 ms-1 fw-lighter ">Mixed materials.Max style.</h4>
+                      <h3 class="text-dark ">VINCENT CHASE</h3>
+                      <button class="btn btn-success ms-auto ">Order now </button>
+                      
+                      
+                     
+                      
+                    </div>
+                  </div>
+                 
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+        </section>
+        <div class="coupon">
+          <button onclick="closeCoupon()">&times;</button>
+          <img src="./close.jpg" alt="" class="code">
+          <h2 class="bold">Flat Rs 1000 OFF*</h2>
+          <p class="gold">On Premium Eyeglass for<br>Gold Members</p>
+          <button id="shop">SHOP NOW</button>
+
+        </div>
+        <section id="card-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="fw-bold fs-2 text-center mt-3">FRAMES</h2>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card bg-dark text-white">
+                            <img src="./glass1.jpg" class="card-img " alt="...">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title text-dark fw-bold fs-3">Starke</h5>
+                              
+                              <p class="card-text text-dark fw-lighter fs-3">Rs:3500</p>
+                           
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4"> <div class="card bg-light text-white">
+                        <img src="./glass10.png" class="card-img h-200em" alt="...">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title text-dark fw-bold fs-3">Lenskart air online</h5>
+                          
+                          <p class="card-text text-dark fw-lighter fs-3">Rs:1000</p>
+                        </div>
+                    </div></div>
+                    <div class="col-lg-4"> <div class="card bg-dark text-white">
+                        <img src="./glass8.jpg" class="card-img h-200em" alt="...">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title text-dark fw-bold fs-3">Lenskart computer glass</h5>
+                          
+                          <p class="card-text text-dark fw-lighter fs-3">Rs:1500</p>
+                        </div>
+                    </div></div>
+                  
+                </div>
+                <div class="row mt-2">
+                    <div class="col-lg-4"> <div class="card bg-dark text-white">
+                        <img src="./glass11.jpg" class="card-img img-fluid h-200em" alt="...">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title text-dark fw-bold fs-3">Vincent chase</h5>
+                         
+                          <p class="card-text text-dark fw-lighter fs-3">Rs:3000</p>
+                        </div>
+                    </div></div>
+                    <div class="col-lg-4"> <div class="card bg-dark text-white">
+                        <img src="./glass9.jpg" class="card-img h-200em" alt="...">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title text-dark fw-bold fs-3">Acetate</h5>
+                          
+                          <p class="card-text text-dark fw-lighter fs-3">Rs:2500</p>
+                        </div>
+                    </div></div>
+                    <div class="col-lg-4"> <div class="card bg-dark text-white">
+                        <img src="./glass6.jpg" class="card-img bg-dark h-100em" alt="...">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title text-dark fw-bold fs-3">Air classic</h5>
+                          
+                          <p class="card-text text-dark fw-lighter fs-3">Rs:2000</p>
+                        </div>
+                    </div></div>
+                </div>
+            </div>
+        </section>
+        <script src="./script.js"></script>
+        <div class="view">
+          <div class="flat">
+            <h3>CALL OUR EXPERTS TO<br>PLACE AN ORDER</h3>
+          </div>
+          <div class="stay">
+            <i class="bi bi-whatsapp"></i>
+            <span class="fs-5 fw-lighter ms-3">BUY ON WHATS APP</span>
+          </div>
+          <div class="dove">
+            <span class="text-dark fw-bold">8292-853-854</span>
+          </div>
+        </div>
+        <div class="space">
+          <br>
+          <h3 class="text-center text-dark fw-lighter">As Seen On Kaira</h3>
+          <hr class="bg-dark">
+        
+        <img src="./kaira.jpg" alt="" class="lay">
+        <div class="eye">
+          <h3 class="idle">As Seen On</h3>
+          <h3 class="spa">Kaira Advani</h3>
+        </div>
+        <div>
+          <img src="./kaira2.jpg" alt="" class="lay">
+        </div>
+        </div> 
+        <div class="code">
+          <div><h3 class="text-center text-dark fw-lighter fs-3  ">CONTACT LENSES & MORE</h3></div>
+          <hr class="bg-dark">
+          <img src="./aqua1.jpg" alt="" class="clear">
+          <img src="./aqua3.jpg" alt="" class="show">
+        </div>
+        <div class="pad">
+          <h3 class="text-center text-light fw-lighter fs-3">RATING</h3>
+          <hr >
+          <div class="main-section">
+            <div class="emoji-section ">
+              <i class="fa-solid fa-face-angry fa-2x"></i>
+              <i class="fa-solid fa-face-frown fa-2x"></i>
+              <i class="fa-solid fa-face-meh fa-2x"></i>
+              <i class="fa-solid fa-face-smile fa-2x"></i>
+              <i class="fa-solid fa-face-laugh fa-2x"></i>
+            </div>
+            <div class="star-section">
+              <i class="fa-regular fa-star fa-1x "></i>
+              <i class="fa-regular fa-star fa-1x"></i>
+              <i class="fa-regular fa-star fa-1x"></i>
+              <i class="fa-regular fa-star fa-1x"></i>
+              <i class="fa-regular fa-star fa-1x"></i>
+            </div>
+          </div>
+         
+         
+        </div> 
+        <div class="footer ">
+          <div>
+            <h3 class="text-center text-dark fw-lighter fs-3">MEET OUR HAPPY CUSTOMERS</h3>
+          </div>
+          <div class="footer-section">
+            <div class="footer1">
+              <iframe width="100%" height="250" src="https://www.youtube.com/embed/TnCO0RptqaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="footer2">
+              <iframe width="100%" height="250" src="https://www.youtube.com/embed/iiTCoVSBuCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+  
+          </div>
+          </div>
+          <div class="footer-body">
+            <div class="border-body">
+              <div class="border1 ">
+                <ul class="point">
+                  <li class="line"><a href="" class="style">Services</a></li>
+                  <li class="short">Store locator</li>
+                  <li class="short">Enter my power</li>
+                  <li class="short">Buying guide</li>
+                  <li class="short">Frame size</li>
+                </ul>
+              </div>
+              <div class="border1 "><ul class="point">
+                <li class="line"><a href="" class="style">About us</a></li>
+                <li class="short">We are hiring</li>
+                <li class="short">Refer&earn</li>
+                <li class="short">About us</li>
+                <li class="short">Lenskart coupons</li>
+              </ul></div>
+              <div class="border1 ">
+                <ul class="point">
+                  <li class="line"><a href="" class="style">Help</a></li>
+                  <li class="short">FAQ</li>
+                 
+                </ul>
+              </div>
+              <hr>
+              <div class="port">
+                <h3><a href="" class="style">FOLLOW US AT</a></h3>
+                <span><i class="fa-brands fa-facebook fa-1x" ></i></span>
+                <span><i class="fa-brands fa-instagram fa-1x"></i></span>
+                <span><i class="fa-brands fa-youtube fa-1x"></i></span>
+              </div>
+              <div class="hide">
+                2022&copy; copyright All rights reserved
+              </div>
+            </div>
+           
+          </div>
+          <script>
+            window.onload=loadCoupon()
+          </script>
+          <script>
+            let x = document.getElementById('out');
+            let y = document.getElementById('weather');
+            function geolocation(){
+                if(navigator.geolocation){
+                    navigator.geolocation.getCurrentPosition(showPosition);
+                }else{
+                    x.innerText = "Geo Not Supported"
+                }
+            }
+
+            function showPosition(data){
+                console.log(data)
+                let lat = data.coords.latitude;
+                let lon = data.coords.longitude;
+                x.innerText = `Latitude is ${lat}  longitude is ${lon}`;
+                const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${lon}&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`
+                //api calling
+                fetch(url,{method:"GET"})
+                //return promise
+                .then((res) => res.json())
+                //resolve promise and get data
+                .then((data) => {
+                    console.log(data);
+                    let cityName = data.city.name;
+                    let temp = data.list[0].temp.day;
+                    y.innerText= `weather of ${cityName} is ${temp} °C`
+                })
+            }
+        </script>
+          
+       
+    </body>
+    
+</html>
